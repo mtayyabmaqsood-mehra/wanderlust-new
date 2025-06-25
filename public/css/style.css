@@ -1,0 +1,87 @@
+.navbar {
+    height: 5rem;
+background-color: white;
+}
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link {
+    color: #222222 !important;
+
+}
+.nav-link:hover {
+    color:#fe424d !important;
+
+}
+/* footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: #222222;
+}
+.f-info-links,.f-info-social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-social i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+
+}
+.f-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 8rem;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+/* cards */
+/* .cards cols {
+    border: none !important;
+} */
+.card {
+    border: none !important;
+    margin-bottom: 2rem !important;
+    margin-right: 3.5rem !important;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body {
+    padding: 0 !important;
+}
+.card-text p {
+    font-weight: 400 !important;
+}
+/* .listing-link  {
+    text-decoration: none !important;
+} */
+.listing-link a {
+    text-decoration: none !important;
+    color: inherit; /* Optional: To ensure link inherits parent color */
+}
+.listing-link a:hover {
+    text-decoration: none !important;
+    color: inherit; /* Optional: To ensure link inherits parent color */
+    color:#fe424d !important;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+}
+
+  
